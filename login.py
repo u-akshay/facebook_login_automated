@@ -13,6 +13,7 @@ from getpass import getpass
 print("FACEBOOK LOGIN ")
 
 driver =  webdriver.Chrome()
+
 driver.get("https://www.facebook.com")
 user_email=input("Email: ")
 user_pass=getpass("password :")
