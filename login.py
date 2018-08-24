@@ -11,7 +11,6 @@ from getpass import getpass
 
 
 print("FACEBOOK LOGIN ")
-
 driver =  webdriver.Chrome()
 
 driver.get("https://www.facebook.com")
