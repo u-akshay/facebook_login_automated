@@ -10,12 +10,12 @@ from getpass import getpass
 #     driver.find_element_by_id("submit").click()
 
 
-print("FACEBOOK LOGIN ")
+print("AUTOMATIC FACEBOOK LOGIN ")
 driver =  webdriver.Chrome()
 
 driver.get("https://www.facebook.com")
 user_email=input("Email: ")
-user_pass=getpass("password :")
+user_pass=getpass("password: ")
 driver.find_element_by_id("email").send_keys(user_email)
 driver.find_element_by_id("pass").send_keys(user_pass)
 driver.find_element_by_id("loginbutton").click()    
